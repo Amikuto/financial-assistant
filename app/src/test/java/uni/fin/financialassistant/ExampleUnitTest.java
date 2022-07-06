@@ -1,4 +1,4 @@
-package uni.ami.financialassistant;
+package uni.fin.financialassistant;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package uni.ami.financialassistant;
+package uni.fin.financialassistant;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("uni.ami.financialassistant", appContext.getPackageName());
+        assertEquals("uni.fin.financialassistant", appContext.getPackageName());
     }
 }
