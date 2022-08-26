@@ -5,8 +5,13 @@
     <string name="income">Доходы</string>
 
     <string name="add_operation">Добавить операцию</string>
+    <string name="btn_add_label">Добавить</string>
     <string name="day">День</string>
     <string name="week">Неделя</string>
     <string name="month">Месяц</string>
-
+    <string name="operation_category">Выберите категорию операции:</string>
+    <string name="operation_tag">Введите тег:</string>
+    <string name="operation_sum">Введите сумму:</string>
+    <string name="operation_type">Выберите тип:</string>
+    <string name="operation_description">Добавить описание операции:</string>
 </resources>

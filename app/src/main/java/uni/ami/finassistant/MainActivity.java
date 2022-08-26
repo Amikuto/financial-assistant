@@ -2,6 +2,7 @@ package uni.ami.finassistant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -40,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
         add_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //TODO Кнопка добавления операций
+                Intent intent = new Intent(MainActivity.this, AddActivity.class);
+                startActivity(intent);
+                //TODO Кнопка добавления операций - делает "Karambasss"
             }
         });
 
